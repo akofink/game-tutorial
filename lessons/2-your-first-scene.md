@@ -13,6 +13,7 @@ In `main.py` let's define our first scene: `Game`.
             super().__init__(engine=engine, 
                              background_color=background_color,
                              **kwargs)
+            Player(self)
 
 For those who have never done additive color, the background_color is a
 tuple of `(red, green, blue)`. If you've ever used hex-colors on the web
